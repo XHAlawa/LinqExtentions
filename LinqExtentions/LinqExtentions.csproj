@@ -4,6 +4,20 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>linq Extentions</Title>
+    <Authors>$(AssemblyName), Ahmed Halawa</Authors>
+    <Description>Linq Extentions</Description>
+    <PackageProjectUrl>https://github.com/users/XHAlawa/projects/1</PackageProjectUrl>
+    <Copyright>Ahmed Halawa</Copyright>
+    <RepositoryUrl>https://github.com/XHAlawa/LinqExtentions</RepositoryUrl>
+    <PackageTags>Linq, Dynamic Linq, Linq Extentions, Linq Helpers, </PackageTags>
+    <PackageId>$(AssemblyName)-Adavanced</PackageId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="publisher.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
