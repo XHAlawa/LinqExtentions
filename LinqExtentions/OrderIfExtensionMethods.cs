@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LinqExtentions
 {
-    public static class OrderIfExtentionMethods
+    public static class OrderIfExtensionMethods
     {
         public static IOrderedQueryable<TSource> OrderByIf<TSource, TKey>(this IQueryable<TSource> query, bool condition, Expression<Func<TSource, TKey>> orderByExpression)
         =>  condition ? query.OrderBy(orderByExpression) : (IOrderedQueryable<TSource>)query;

@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/XHAlawa/LinqExtentions</RepositoryUrl>
     <PackageTags>Linq, Dynamic Linq, Linq Extentions, Linq Helpers, </PackageTags>
     <PackageId>$(AssemblyName)-Adavanced</PackageId>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinqExtentions
 {
-    public static class EnumrableExtentionMethods
+    public static class EnumrableExtensionMethods
     {
         public static void Each<T>(this IEnumerable<T> source, Action<object> action)
         {
@@ -114,5 +114,6 @@ namespace LinqExtentions
 
             return list.ToArray();
         }
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinqExtentions
 {
-    public static class PageingExtentionMethods
+    public static class PageingExtensionMethods
     {
         public static (List<T> Items,int Total) ToPagedList<T>(this IQueryable<T> query, int page = 0, int countPerPage = 10)
         {
