@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Linq;
 using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 
-namespace LinqExtentions
+namespace LinqExtensions
 {
     public static class WhereExtensionMethods
     {
